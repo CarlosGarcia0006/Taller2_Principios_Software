@@ -35,3 +35,21 @@
 
 ### Desde un navegador 
 * http://<Node-IP>:30400/docs
+
+## Para la prueba en postman:
+### Catalogo
+http://<Node-IP>:30300/api/getlibros
+http://<Node-IP>:30300/api/libro (se le pasa un raw Json)
+http://<Node-IP>:30300/api/libro (se le pasa un raw Json)
+http://<Node-IP>:30300/api/deletelibro?ISBN=11111111122233
+
+### Reviews
+http://<Node-IP>:30200/reviews
+http://<Node-IP>:30200/addreviews?usuario=User&isbn=11111111122233&estrellas=4&comentario=muy bueno la verdad
+http://<Node-IP>:30200/deletereviews?usuario=User&isbn=11111111122233
+
+### Store
+http://<Node-IP>:30400/api/getcart?usuario=User
+http://<Node-IP>:30400/api/addcart?usuario=User&isbn=22222222&cantidad=1
+http://<Node-IP>:30400/api/buycart?usuario=User
+http://<Node-IP>:30400/api/deletecart?isbn=22222222&usuario=User
