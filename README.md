@@ -3,4 +3,4 @@
 - Juan Sebastian Pabon Mojica - 2143359
 - Juan Nicolas Garcia Vega - 2210050
 
-## Link al video explicativo: []
+## Link al video explicativo: [https://youtu.be/zUUIeDghb3g]
